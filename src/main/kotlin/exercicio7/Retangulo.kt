@@ -1,6 +1,6 @@
 package exercicio7
 
-class Retangulo(private val base:Double, private val altura:Double) {
+class Retangulo(val base:Double,val altura:Double) {
     val area
         get() = base *altura
 }
